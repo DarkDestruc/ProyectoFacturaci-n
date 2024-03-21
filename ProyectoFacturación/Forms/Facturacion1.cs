@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ProyectoFacturación
 {
-    public partial class Facturacion2 : Form
+    public partial class Facturacion1 : Form
     {
-        public Facturacion2()
+        public Facturacion1()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gpbcabecera_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

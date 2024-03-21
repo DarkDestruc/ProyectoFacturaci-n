@@ -46,28 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Facturacion1.cs">
+    <Compile Include="Forms\Facturacion1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Facturacion1.Designer.cs">
+    <Compile Include="Forms\Facturacion1.Designer.cs">
       <DependentUpon>Facturacion1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Facturacion2.cs">
+    <Compile Include="Forms\Facturacion2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Facturacion2.Designer.cs">
+    <Compile Include="Forms\Facturacion2.Designer.cs">
       <DependentUpon>Facturacion2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Facturacion3.cs">
+    <Compile Include="Forms\Facturacion3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Facturacion3.Designer.cs">
+    <Compile Include="Forms\Facturacion3.Designer.cs">
       <DependentUpon>Facturacion3.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Facturacion1.resx">
+    <EmbeddedResource Include="Forms\Facturacion1.resx">
       <DependentUpon>Facturacion1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion2.resx">
+      <DependentUpon>Facturacion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion3.resx">
+      <DependentUpon>Facturacion3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

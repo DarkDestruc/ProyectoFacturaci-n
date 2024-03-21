@@ -16,5 +16,10 @@ namespace ProyectoFacturación
         {
             InitializeComponent();
         }
+
+        private void gpbCabecera3_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
